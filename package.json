@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-no-empty-blocks",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An extended version of the `no-empty` rule that adds an option to allow empty catch blocks.",
   "main": "index.js",
   "directories": {
