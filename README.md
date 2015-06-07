@@ -1,6 +1,6 @@
 # eslint-plugin-no-empty-blocks
 
-An [ESLint](http://eslint.org/) rule for eliminating empty block statements. It is an extended version of the [`no-empty`](http://eslint.org/docs/rules/no-empty) rule that adds an option to allow empty catch blocks.
+An [ESLint](http://eslint.org/) rule for eliminating empty block statements. It is an extended version of the [`no-empty`](http://eslint.org/docs/rules/no-empty) rule that allows empty catch blocks.
 
 ## Why Use It
 
@@ -14,7 +14,7 @@ try {
 
 But this technique can be useful for ignoring errors, and this plugin provides an option to allow it.
 
-## Configuration
+## Usage
 
 Add `no-empty-blocks` to the `plugins` section of your `.eslintrc`:
 
@@ -26,14 +26,12 @@ Add `no-empty-blocks` to the `plugins` section of your `.eslintrc`:
 }
 ```
 
-If you don't add anything to the `rules` section, the default config will be used (*prohibit empty blocks except catches*):
+Turn off the `no-empty` rule:
 
 ```json
 {
   "rules": {
-    "no-empty-blocks": [2, "allowCatch"]
+    "no-empty": 0
   }
 }
 ```
-
-Without the `allowCatch` option the rule behaves identically to the built-in `no-empty` rule.
