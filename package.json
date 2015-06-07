@@ -1,0 +1,32 @@
+{
+  "name": "eslint-plugin-no-empty-blocks",
+  "version": "0.0.1",
+  "description": "An extended version of the `no-empty` rule that adds an option to allow empty catch blocks.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/lib/rules/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alex-shnayder/eslint-plugin-no-empty-blocks.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "no-empty",
+    "catch"
+  ],
+  "author": "Alex Shnayder <alex@shnayder.pro>",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">=0.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^0.22.0",
+    "eslint-tester": "^0.7.0",
+    "mocha": "^2.2.5"
+  }
+}
