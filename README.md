@@ -2,6 +2,16 @@
 
 An [ESLint](http://eslint.org/) rule for eliminating empty block statements. It is an extended version of the [`no-empty`](http://eslint.org/docs/rules/no-empty) rule that allows empty catch blocks.
 
+## Installation
+
+If your ESLint is installed globally:
+
+`npm install -g eslint-plugin-no-empty-blocks`
+
+or locally:
+
+`npm install -D eslint-plugin-no-empty-blocks`
+
 ## Why Use It
 
 ESLint has the built-in `no-empty` rule that is aimed at eliminating empty block statements. It throws a warning at empty catch blocks such as this one:
