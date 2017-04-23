@@ -1,3 +1,9 @@
+## DEPRECATED
+
+ESLint's native `no-empty` rule already supports the `allowEmptyCatch` option.
+
+----------
+
 # eslint-plugin-no-empty-blocks
 
 An [ESLint](http://eslint.org/) rule for eliminating empty block statements. It is an extended version of the [`no-empty`](http://eslint.org/docs/rules/no-empty) rule that allows empty catch blocks.
